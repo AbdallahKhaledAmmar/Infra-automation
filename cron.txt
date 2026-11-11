@@ -1,0 +1,2 @@
+# Daily backup at midnight; stdout+stderr appended to a log for auditing
+0 0 * * * /home/pc/automation/backup.sh >> /home/pc/automation/logs/backup.log 2>&1
